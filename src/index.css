@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Oculta la scrollbar en navegadores WebKit (Chrome, Safari) */
+  }
+  
+  .scroll-container {
+    -ms-overflow-style: none; /* Oculta la scrollbar en IE y Edge */
+    scrollbar-width: none; /* Oculta la scrollbar en Firefox */
+  }
